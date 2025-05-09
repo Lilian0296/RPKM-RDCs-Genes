@@ -15,6 +15,7 @@ You can assign a mode to different calculation
 # Set up the environment
 
 ```bash
+# bash
 module load R/4.4.3-GCCcore-14.1.0
 module load SAMtools/1.20-GCC-14.1.0 
 module load Subread/2.0.6-GCC-14.1.0
@@ -22,6 +23,7 @@ module load Subread/2.0.6-GCC-14.1.0
 ```
 
 ```R
+# R
 install.packages("readr")
 install.packages("dplyr")
 install.packages("optparse")
