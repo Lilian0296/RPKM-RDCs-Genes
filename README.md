@@ -5,12 +5,9 @@ Calculation of Transcribed Regions Within RDCs from GRO-seq data
 # Overview
 This script is designed to calculate reads per kilobase per millions (RPKM) in RDC regions.
 
-# Mode 
+# Description 
 
-You can assign a mode to different calculation
-
-- **Gene RPKM:**  Calculates RPKM for all genes (all reads)
-- **RDC RPKM:** Calculates RPKM for genes overlapping with RDCs (considering gene strandness). For RDCs without any overlapping genes, the calculation is based on the number of reads within the regions, without considering strandness.
+Calculates RPKM for genes overlapping with RDCs (considering gene strandness). For RDCs without any overlapping genes, the calculation is based on the number of reads within the regions, without considering strandness.
 
 # Set up the environment
 
@@ -41,8 +38,8 @@ install.packages("optparse")
 
 # Final output
 
-- Gene RPKM: CSV files with RPKM values.
-- RDC RPKM: For RDCs that overlap with genes, the file names start with “Gene_“. For RDCs that do not overlap with genes, the file names start with “RDC_“.
+
+RDC RPKM: For RDCs that overlap with genes, the file names start with “Gene_“. For RDCs that do not overlap with genes, the file names start with “RDC_“.
 
 
 
