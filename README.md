@@ -46,7 +46,7 @@ RDC RPKM: For RDCs that overlap with genes, the file names start with â€œGene_â€
 # Example
 
 ```bash
-Rscript 0_RDC_rpkm_V1.R -o ~/u2os_res/ -r hg38_refGene.bed -b ~/gro-seq-u2os-hg38/alignment/ -i ~/u2os/ 
+Rscript 0_RDC_rpkm_V2.R -o ~/u2os_res/ -r hg38_refGene.bed -b ~/gro-seq-u2os-hg38/alignment/ -i ~/u2os/ 
 
 ```
 
